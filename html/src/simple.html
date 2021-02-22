@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!---When select a table , html will send a message to combie.py --->
+
+<html>
+<head>
+<meta charset="utf-8" />
+
+<script type="text/javascript" src="js/eventemitter2.min.js"></script>
+<script type="text/javascript" src="js/roslib.min.js"></script>
+<script type="text/javascript" src="js/rostopic.js"></script>
+<link href="css/area_stablish.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1>請選擇要清潔的桌子</h1>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <button type="button" onclick="myFunction(1)">第一張桌子</button>
+        </td>
+        <td>
+          <button type="button" onclick="myFunction(2)">第二張桌子</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" onclick="myFunction(3)">第三張桌子</button>
+        </td>
+        <td>
+          <button type="button" onclick="myFunction(4)">第四張桌子</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" onclick="myFunction(5)">第五張桌子</button>
+        </td>
+        <td>
+          <button type="button" onclick="myFunction(6)">第六張桌子</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</body>
+</html>
